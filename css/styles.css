@@ -52,7 +52,7 @@ body {
     border-radius: 0 30px 0 0;
 }
 
-.card__aside {
+.card_aside {
     position: absolute;
     width: 94px;
     height: 37px;
@@ -61,7 +61,7 @@ body {
     background: var(--black);
 }
 
-.card__text {
+.card_text {
     margin-left: 20px;
     width: 69px;
     height: 28px;
@@ -73,7 +73,7 @@ body {
     color: var(--red);
 }
 
-.card__day {
+.card_day {
     position: absolute;
     width: 66px;
     height: 36px;
@@ -86,7 +86,7 @@ body {
     color: var(--white);
 }
 
-.card__month {
+.card_month {
     position: absolute;
     width: 65px;
     height: 21px;
@@ -101,7 +101,7 @@ body {
     text-align: center;
 }
 
-.card__images {
+.card_images {
     position: absolute;
     width: 51px;
     height: 23px;
@@ -109,11 +109,11 @@ body {
     top: 25px;
 }
 
-.card__img {
+.card_img {
     border-radius: 5px
 }
 
-.card__divider {
+.card_divider {
     position: absolute;
     width: 377px;
     height: 0px;
@@ -122,7 +122,7 @@ body {
     border: 1px solid var(--white);
 }
 
-.card__title {
+.card_title {
     padding: 0;
     position: absolute;
     left: 16px;
@@ -132,7 +132,7 @@ body {
     align-items: center;
 }
 
-.card__title-text {
+.card_title-text {
     height: 37px;
     font-family: var(--cairo);
     font-style: normal;
@@ -141,13 +141,13 @@ body {
     line-height: 37px;
 }
 
-.card__title-img {
+.card_title-img {
     margin-left: 5.3px;
     width: 11.67px;
     height: 16.14px;
 }
 
-.card__caption {
+.card_caption {
     position: absolute;
     height: 28px;
     left: 16px;
@@ -160,7 +160,7 @@ body {
     line-height: 28px;
 }
 
-.card__caption-age {
+.card_caption-age {
     font-family: var(--genos);
     margin-left: 7.98px;
     font-weight: 400;
@@ -182,17 +182,17 @@ body {
     align-items: center;
 }
 
-.list__racing {
+.list_racing {
     width: 106px;
 }
 
-.list__day {
+.list_day {
     margin-left: 35px;
     width: 40px;
     text-align: center;
 }
 
-.list__hour {
+.list_hour {
     margin-left: 56PX;
     width: 101.9px;
     height: 19.62px;
@@ -203,12 +203,12 @@ body {
     align-items: center;
 }
 
-.list__hour-practice {
+.list_hour-practice {
     color: var(--red);
 }
 
-.list__hour-practice,
-.list__hour-racing {
+.list_hour-practice,
+.list_hour-racing {
     font-family: var(--cairo);
     font-style: normal;
     font-weight: 400;
@@ -222,28 +222,28 @@ body {
     left: 15px;
 }
 
-.list__hour-1 {
+.list_hour-1 {
     background-color: var(--gray);
     color: var(--white);
 }
 
-.list__hour-2 {
+.list_hour-2 {
     background-color: var(--red);
     color: var(--white);
 }
 
-.list__hour-racing {
+.list_hour-racing {
     color: var(--white);
 }
 
-.card__footer {
+.card_footer {
     position: absolute;
     width: 193px;
     left: 80px;
     top: 340px;
 }
 
-.card__footer-text {
+.card_footer-text {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
