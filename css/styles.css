@@ -42,9 +42,9 @@ body {
 
 .card {
     width: 396px;
-    height: 395px;
+    height: 368px;
     margin-left: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 38px;
     position: relative;
     border-width: 2px 2px 0px 0px;
     border-style: solid;
@@ -240,16 +240,8 @@ body {
     line-height: 18px;
 }
 
-.shadow {
-    width: 52px;
-    height: 29px;
-    margin-left: 359px;
-    margin-top: 10px;
-    background: var(--black);
-}
-
 @media (min-width: 429px) {
     .card {
-        margin: 0 auto 10px;
+        margin: 0 auto 38px;
     }
 }
